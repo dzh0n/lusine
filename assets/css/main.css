@@ -24,6 +24,8 @@ html, body {
 }
 
 footer {
+    font-family: "Mont";
     background-color: #473c3a;
     padding: 85px 0;
+    color: #cbbdba;
 }

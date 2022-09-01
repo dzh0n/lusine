@@ -83,6 +83,81 @@ body {
     color: #b95342;
 }
 
+.social {
+    position: relative;
+    height: 800px;
+    background-image: url('../img/social-bg.jpg');
+    background-position: center;
+}
+
+.social .box {
+    height: 100%;
+    min-height: 100%;
+}
+
+.social-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.social-text h2 {
+    display: inline-block;
+    max-width: 500px;
+    line-height: 58px;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    color: #b95342;
+    font-size: 58px;
+    margin-bottom: 40px;
+}
+
+.social-text h2 span {
+    color: #473b39;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 58px;
+}
+
+.social-text_info {
+    max-width: 380px;
+    color: #5a5a5a;
+    font-size: 23px;
+    margin-bottom: 35px;
+}
+
+.social-people {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: -15px;
+    z-index: 1;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    display: block;
+    width: 55px;
+    height: 55px;
+    text-decoration: none;
+}
+
+.social-icons_instagram {
+    background-image: url('../img/instagram.png');
+}
+
+.social-icons_instagram:hover {
+    opacity: .8;
+}
+
 
 .command {
     padding: 40px 0px;

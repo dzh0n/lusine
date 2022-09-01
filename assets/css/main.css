@@ -148,13 +148,28 @@ body {
     width: 55px;
     height: 55px;
     text-decoration: none;
+    background-position: center;
+    background-size: contain;
+    margin-right: 20px;
 }
 
 .social-icons_instagram {
     background-image: url('../img/instagram.png');
 }
 
-.social-icons_instagram:hover {
+.social-icons_whatsup {
+    background-image: url('../img/wt.png');
+}
+
+.social-icons_vkontakte {
+    background-image: url('../img/vk.png');
+}
+
+.social-icons_telegram {
+    background-image: url('../img/tg.png');
+}
+
+.social-icons a:hover {
     opacity: .8;
 }
 

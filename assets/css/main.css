@@ -1,3 +1,9 @@
+@import "style.css";
+@import "animate.min.css";
+@import "../fonts/mont/stylesheet.css";
+@import "../fonts/PFRegalDisplayPro/stylesheet.css";
+@import "../fonts/Bickham/stylesheet.css";
+
 html {
     -webkit-font-smoothing: antialiased;
 }

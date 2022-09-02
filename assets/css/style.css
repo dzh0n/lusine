@@ -377,13 +377,11 @@ html, body {
 
 .header {
     height: 220px;
-    background: #6CAEDD;
     color: #fff;
 }
 
 .footer {
     height: 375px;
-    background: #364850;
     color: #fff;
     position: absolute;
     left: 0;

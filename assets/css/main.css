@@ -280,6 +280,124 @@ body {
     transform: translateY(50%);
 }
 
+
+.groups {
+    padding: 115px 0px 160px;
+    background-color: #fff6f6;
+    position: relative;
+}
+
+.groups-title {
+    color: #b95342;
+    text-align: center;
+    margin: 0 0 45px;
+    font-size: 50px;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+}
+
+.groups-title span {
+    color: #473b39;
+    font-style: normal;
+}
+
+.groups-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-item {
+    width: 345px;
+    background-color: #fffeff;
+    -webkit-box-shadow: 0px 0px 46px 0px rgb(182 169 166 / 15%);
+    -moz-box-shadow: 0px 0px 46px 0px rgba(182, 169, 166, 0.15);
+    box-shadow: 0px 0px 46px 0px rgb(182 169 166 / 15%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.group-item_img {
+    width: 100%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.group-item_content {
+    padding: 35px 35px 45px;
+}
+
+.group-item_title {
+    color: #473b39;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.group-item_description {
+    color: #707070;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.group-item_info {
+    margin-bottom: 30px;
+}
+
+.group-item_info div {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: #707070;
+    margin-bottom: 5px;
+}
+
+.group-item_info div img {
+    margin-right: 10px;
+}
+
+.group-item_info div strong {
+    color: #473b39;
+    margin-right: 5px;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 700;
+    font-style: italic;
+    font-size: 19px;
+}
+
+.group-item_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 225px;
+    height: 74px;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 700;
+    color: #473b39;
+    font-size: 20px;
+    border: #d37261 2px solid;
+    border-radius: 40px;
+    transition: background-color ease .3s;
+}
+
+.group-item_btn:hover {
+    color: #ffffff;
+    background-color: #d37261;
+}
+
+.leaf_2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(50%);
+}
+
 .footer {
     background-color: #473C3A;
     padding: 85px 0 75px;

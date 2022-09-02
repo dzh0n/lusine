@@ -71,6 +71,23 @@ body {
     color: #7d7d7d;
     display: block;
     width: 130px;
+    margin-right: 45px;
+}
+
+.header-top_social {
+    display: flex;
+    align-items: center;
+}
+
+.header-top_social a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 7px;
+    opacity: .9;
+}
+
+.header-top_social a:hover {
+    opacity: 1;
 }
 
 .header-top_address {
@@ -121,7 +138,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 -30px;
+    margin: 0 -60px;
 }
 
 .main-menu li a {

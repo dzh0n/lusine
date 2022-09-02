@@ -444,6 +444,36 @@ body {
 }
 
 
+.garantee {
+    background-color: #fefafa;
+    padding: 120px 0px 75px;
+}
+
+.garantee-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.garantee-text {
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    color: #b95342;
+    font-size: 45px;
+    line-height: 1.1;
+}
+
+.garantee-text span {
+    font-style: normal;
+    color: #473b39;
+}
+
+.garantee-text_last {
+    color: #5a5a5a;
+    font-size: 25px;
+}
+
 .command {
     padding: 40px 0px;
 }

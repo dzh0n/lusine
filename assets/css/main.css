@@ -726,3 +726,37 @@ body {
     background-image: url('../img/command-all-active.png');
     background-position: 1px 2px;
 }
+
+.reviews {
+    padding: 40px 0px;
+}
+
+.reviews-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.reviews-title_left {
+    color: #b95342;
+    font-size: 48px;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.1;
+}
+
+.reviews-title_right {
+    color: #5a5a5a;
+    font-size: 26px;
+    line-height: 1.2;
+    padding-top: 10px;
+}
+
+.reviews-title_left span {
+    display: block;
+    color: #473b39;
+    font-weight: 500;
+    font-style: normal;
+}

@@ -267,6 +267,13 @@ body {
     margin-bottom: 0;
 }
 
+.leaf_1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(50%);
+}
+
 .footer {
     background-color: #473C3A;
     padding: 85px 0 75px;
@@ -412,7 +419,7 @@ body {
 
 
 .features {
-    padding: 45px 0px 140px;
+    padding: 145px 0px 140px;
 }
 
 .features-wrapper {

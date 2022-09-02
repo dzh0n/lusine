@@ -30,7 +30,7 @@ body {
 .header {
     background-position: center;
     background-image: url('../img/header-bg.png');
-
+    height: auto;
 }
 
 .header-top {
@@ -158,6 +158,114 @@ body {
     border-color: #d67867;
 }
 
+.header-bottom {
+    position: relative;
+    height: 670px;
+}
+
+.header-people_img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header-bottom_content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-bottom_content h3 {
+    font-family: 'PF Regal Display Pro';
+    font-weight: 400;
+    color: #473c3a;
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 0 0 30px;
+}
+
+.header-bottom_content h4 {
+    font-size: 86px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'PF Regal Display Pro';
+    line-height: 1.2;
+    margin: 0 0 30px;
+    background-color: #b03f2e;
+    background-image: linear-gradient(0deg, #b03f2e, #e69f87);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-bottom_content h5 {
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    color: #5a5a5a;
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0 0 30px;
+}
+
+.header-bottom_row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.header-bottom_row a {
+    width: 326px;
+    display: block;
+    text-decoration: none;
+    background-position: top center;
+    background-image: url('../img/header_service_btn.png');
+    color: #ffffff;
+    height: 98px;
+    text-align: center;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    font-size: 26px;
+    padding-top: 15px;
+}
+
+.header-bottom_row a:hover {
+    background-image: url('../img/header_service_btn_hover.png');
+}
+
+.header-bottom_row ul {
+    list-style-type: none;
+    background-color: #eadbd3;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 0 0 0 125px;
+}
+
+.header-bottom_row ul li {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 25px;
+    color: #414141;
+    font-size: 17px;
+}
+
+.header-bottom_row ul li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 13px;
+    height: 13px;
+    background-image: url('../img/header-marker.png');
+}
+
+.header-bottom_row ul li:last-of-type {
+    margin-bottom: 0;
+}
 
 .footer {
     background-color: #473C3A;

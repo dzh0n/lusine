@@ -16,6 +16,7 @@ html {
 
 body {
     font-family: "Mont";
+    min-height: 100vh;
 }
 
 .box {
@@ -27,8 +28,119 @@ body {
 }
 
 .header {
-    background-color: transparent;
+    background-position: center;
+    background-image: url('../img/header-bg.png');
+
 }
+
+.header-top {
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header-top_col {
+    display: flex;
+    align-items: center;
+}
+
+.main-logo {
+    font-family: 'Bickham Script One';
+    font-weight: normal;
+    font-style: italic;
+    color: #000000;
+    text-decoration: none;
+    font-size: 42px;
+    line-height: 26px;
+    margin-right: 35px;
+}
+
+.main-logo span {
+    display: block;
+}
+
+.main-logo span:nth-child(2) {
+    margin-left: 20px;
+}
+
+.main-logo_text {
+    font-size: 14px;
+    color: #7d7d7d;
+    display: block;
+    width: 130px;
+}
+
+.header-top_address {
+
+}
+
+.header-top_address strong {
+    color: #473c3a;
+    font-size: 18px;
+}
+
+.header-top_address span {
+    display: block;
+    color: #7d7d7d;
+    font-size: 16px;
+}
+
+.header-top_phone {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-top_phone .phone {
+    color: #473c3a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.header-top_phone .order-service_link {
+    font-size: 15px;
+    text-decoration: none;
+    color: #d67867;
+    display: inline-block;
+    border-bottom: #d67867 1px solid;
+    font-weight: 600;
+    transition: border-bottom-color ease .3s;
+}
+
+.header-top_phone .order-service_link:hover {
+    border-bottom-color: transparent;
+}
+
+.main-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -30px;
+}
+
+.main-menu li a {
+    display: inline-block;
+    padding: 20px 30px;
+    font-weight: 500;
+    font-family: 'PF Regal Display Pro';
+    text-decoration: none;
+    color: #473c3a;
+    font-size: 20px;
+    line-height: 20px;
+    border: transparent 2px solid;
+    border-radius: 45px;
+}
+
+.main-menu li a:hover {
+    border-color: #d67867;
+}
+
 
 .footer {
     background-color: #473C3A;

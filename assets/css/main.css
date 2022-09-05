@@ -1,5 +1,6 @@
 @import "style.css";
 @import "animate.min.css";
+@import "swiper-bundle.min.css";
 @import "../fonts/mont/stylesheet.css";
 @import "../fonts/PFRegalDisplayPro/stylesheet.css";
 @import "../fonts/Bickham/stylesheet.css";
@@ -538,7 +539,8 @@ body {
 }
 
 .social-icons a:hover {
-    opacity: .8;
+    opacity: .8 !important;
+    transform: scale(1.1);
 }
 
 
@@ -759,4 +761,196 @@ body {
     color: #473b39;
     font-weight: 500;
     font-style: normal;
+}
+
+.review-item {
+
+}
+
+.review-item a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.review-item img {
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.review-item_name {
+    font-weight: bold;
+    font-size: 20px;
+    color: #473b39;
+}
+
+.reviews-pagination {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: relative;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    background: none;
+}
+
+.burger-menu {
+    display: none;
+}
+
+@media (max-width: 575px) {
+    .header {
+        background-image: url('../img/header-bg-mob.jpg');
+        background-size: cover;
+    }
+
+    .burger-menu {
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+    }
+
+    .burger-menu span {
+        width: 100%;
+        height: 2px;
+        background-color: #d68f7e;
+        display: block;
+        margin-bottom: 6px;
+    }
+
+    .burger-menu:hover span {
+        background-color: #c06c5c;
+    }
+
+    .header-top {
+        padding-top: 15px;
+        flex-direction: column;
+    }
+
+    .main-logo {
+        font-size: 29px;
+        line-height: 18px;
+        margin-right: 0px;
+    }
+
+    .main-logo span:nth-child(2) {
+        margin-left: 15px;
+    }
+
+    .main-logo_text {
+        font-size: 10px;
+        margin-bottom: 0px;
+        width: 90px;
+    }
+
+    .header-top_social {
+        display: none;
+    }
+
+    .header-top_col {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header-top_col:nth-child(2) {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .header-top_address {
+        text-align: center;
+    }
+
+    .header-top_phone .order-service_link {
+        display: none;
+    }
+
+    .header-top_phone {
+        margin-left: 0;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .header-bottom_content h3 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .header-bottom_content h4 {
+        font-size: 31px;
+        margin-bottom: 10px;
+    }
+
+    .header-bottom_content h5 {
+        font-size: 18px;
+    }
+
+    .header-bottom {
+        height: auto;
+    }
+
+    .header-people_img {
+        position: relative;
+        width: 230px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .header-bottom_row ul {
+        position: absolute;
+        bottom: -430px;
+        margin: 0;
+        width: 100%;
+        padding: 30px 25px;
+
+    }
+
+    .header-bottom_row ul li {
+        font-size: 14px;
+    }
+
+    .header-bottom_row a {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 230px;
+        font-size: 18px;
+        height: 70px;
+        padding-top: 12px;
+    }
+
+    .header-bottom_row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .features-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features-wrapper_item {
+        margin-bottom: 25px;
+    }
+
+    .groups {
+        padding: 60px 0px 60px;
+    }
+
+    .groups-wrapper {
+        flex-direction: column;
+    }
+
+    .group-item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
 }

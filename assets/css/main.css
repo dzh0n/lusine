@@ -941,8 +941,16 @@ body {
         margin-bottom: 25px;
     }
 
+    .features-wrapper_item img {
+
+    }
+
     .groups {
-        padding: 60px 0px 60px;
+        padding: 50px 0px 50px;
+    }
+
+    .groups-title {
+        font-size: 28px;
     }
 
     .groups-wrapper {
@@ -952,5 +960,32 @@ body {
     .group-item {
         width: 100%;
         margin-bottom: 25px;
+    }
+
+    .group-item_title {
+        font-size: 16px;
+    }
+
+    .group-item_description {
+        font-size: 14px;
+    }
+
+    .group-item_info div {
+        font-size: 14px;
+    }
+
+    .group-item_info div strong {
+        font-size: 16px;
+    }
+
+    .group-item_btn {
+        font-size: 16px;
+        width: 190px;
+        height: 64px;
+    }
+
+    .leaf_2 {
+        width: 70%;
+        transform: translateY(30%);
     }
 }

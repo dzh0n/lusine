@@ -988,4 +988,30 @@ body {
         width: 70%;
         transform: translateY(30%);
     }
+
+
+    .command-title {
+        flex-direction: column;
+    }
+
+    .command-title_left {
+        text-align: center;
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .command-title_right {
+        text-align: center;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .command-wrapper {
+        flex-direction: column;
+    }
+
+    .command-wrapper_col {
+        margin-bottom: 25px;
+    }
+
 }

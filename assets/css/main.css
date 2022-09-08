@@ -773,6 +773,26 @@ body {
     text-align: center;
 }
 
+.review-item_img {
+    position: relative;
+}
+
+.review-video .review-item_img:before {
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/video-btn.png');
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.review-video .review-item_img:hover:before {
+    background-image: url('../img/video-btn-active.png');
+}
+
 .review-item img {
     border-radius: 5px;
     display: block;
@@ -792,15 +812,56 @@ body {
     align-items: center;
     height: 50px;
     position: relative;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .swiper-button-prev, .swiper-button-next {
     background: none;
+    height: 25px;
+    top: 0;
+    margin-top: 0px;
 }
+
+.pagination-digits {
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-digits_current {
+    color: #b95342;
+}
+
+.pagination-digits_del {
+    color: #8d8d8d;
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.pagination-digits_total {
+    color: #8d8d8d;
+}
+
+.reviews-pagination .swiper-button-prev, .reviews-pagination .swiper-button-next {
+    position: relative;
+}
+
+.reviews-pagination .swiper-button-disabled svg line, .reviews-pagination .swiper-button-disabled svg polyline {
+    stroke: #8d8d8d !important;
+}
+
 
 .burger-menu {
     display: none;
 }
+
+.reviews__prev {
+
+}
+
 
 @media (max-width: 575px) {
     .header {
@@ -1014,4 +1075,32 @@ body {
         margin-bottom: 25px;
     }
 
+    .reviews-title {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .reviews-title_left {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .reviews-title_right {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .review-item img {
+        margin-bottom: 20px;
+    }
+
+    .review-item_name {
+        font-size: 18px;
+    }
+
+    .reviews-pagination {
+        display: none;
+    }
 }

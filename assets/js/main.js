@@ -7,6 +7,10 @@ $(document).ready(function () {
             nextEl: '.reviews__next',
         },
         breakpoints: {
+            992: {
+                slidesPerView: 3,
+
+            },
             576: {
                 slidesPerView: 1.2,
             },

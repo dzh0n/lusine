@@ -1168,6 +1168,20 @@ body {
     background-position: 1px 2px;
 }
 
+.leaf_3 {
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+    z-index: 5;
+}
+
+.leaf_4 {
+    position: absolute;
+    top: 125px;
+    left: -50px;
+    z-index: 5;
+}
+
 @media (max-width: 575px) {
     .header {
         background-image: url('../img/header-bg-mob.jpg');

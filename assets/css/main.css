@@ -863,6 +863,59 @@ body {
 }
 
 
+.exclusive {
+    background-image: url('../img/exclusive-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 90px 0 30px;
+}
+
+.exclusive-wrap {
+    display: flex;
+}
+
+.exclusive-text {
+    max-width: 555px;
+}
+
+.exclusive-text_badget {
+    margin-bottom: 20px;
+    color: #b95342;
+    font-size: 32px;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.1;
+    border: #b95342 2px solid;
+    padding: 15px 35px;
+    display: inline-block;
+    border-radius: 35px;
+}
+
+.exclusive-text_title {
+    margin-bottom: 30px;
+    color: #b95342;
+    font-size: 50px;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.1;
+}
+
+.exclusive-text_title span {
+    color: #473b39;
+    font-style: normal;
+}
+
+.exclusive-text_main {
+    color: #6e6e6e;
+    font-size: 23px;
+}
+
+.exclusive-img {
+    margin-right: -110px;
+}
+
 @media (max-width: 575px) {
     .header {
         background-image: url('../img/header-bg-mob.jpg');
@@ -1141,5 +1194,35 @@ body {
 
     .social-text {
         margin-bottom: 25px;
+    }
+
+    .exclusive-wrap {
+        flex-direction: column;
+    }
+
+    .exclusive-img {
+        margin-right: 0px;
+    }
+
+    .exclusive-img img {
+        width: 100%;
+    }
+
+    .exclusive-text_title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .exclusive-text_main {
+        font-size: 18px;
+    }
+
+    .exclusive-text_badget {
+        font-size: 24px;
+        padding: 15px 25px;
+    }
+
+    .exclusive {
+        padding-top: 50px;
     }
 }

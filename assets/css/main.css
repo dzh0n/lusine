@@ -1054,6 +1054,120 @@ body {
     display: none;
 }
 
+.actions {
+    padding: 0 0 130px;
+}
+
+.actions-pagination {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: relative;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.actions-pagination .swiper-button-prev, .actions-pagination .swiper-button-next {
+    position: relative;
+}
+
+.actions-pagination .swiper-button-disabled svg line, .actions-pagination .swiper-button-disabled svg polyline {
+    stroke: #8d8d8d !important;
+}
+
+.actions-slide {
+    position: relative;
+}
+
+.actions-slide .img {
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.actions-slide .img-mob {
+    display: none;
+}
+
+.actions-slide label {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 3;
+    padding: 10px 30px 10px 40px;
+    font-size: 50px;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1;
+    background-color: #b95342;
+    color: #f8eeea;
+    border-radius: 0 35px 35px 0;
+}
+
+.actions-slide_content {
+    margin-left: 530px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    justify-content: center;
+}
+
+.actions-slide_title {
+    font-size: 65px;
+    color: #473c3a;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.1;
+    margin-bottom: 35px;
+}
+
+.actions-slide_subtitle {
+    display: inline-flex;
+    align-items: center;
+    color: #b95342;
+    font-size: 42px;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.1;
+    margin-bottom: 35px;
+}
+
+.actions-slide_subtitle img {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.actions-slide_btn {
+    display: inline-block;
+    color: #fff9f8;
+    font-size: 23px;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: none;
+    width: 254px;
+    height: 90px;
+    line-height: 19px;
+    text-align: center;
+    padding-top: 25px;
+    background-image: url('../img/command-all.png');
+}
+
+.actions-slide_btn:hover {
+    background-image: url('../img/command-all-active.png');
+    background-position: 1px 2px;
+}
+
 @media (max-width: 575px) {
     .header {
         background-image: url('../img/header-bg-mob.jpg');
@@ -1423,5 +1537,56 @@ body {
         text-align: center;
         font-size: 14px;
         margin: 0 0 25px;
+    }
+
+    .features {
+        padding-bottom: 40px;
+    }
+
+    .actions {
+        padding-bottom: 40px;
+    }
+
+    .actions-slide .img {
+        display: none;
+    }
+
+    .actions-slide .img-mob {
+        display: block !important;
+    }
+
+    .actions-slide label {
+        font-size: 24px;
+        padding-left: 30px;
+        padding-right: 30px;
+        top: 30px;
+    }
+
+    .actions-slide_content {
+        margin-left: 0px;
+        justify-content: flex-start;
+        padding: 85px 20px 0px;
+    }
+
+    .actions-slide_title {
+        font-size: 33px;
+        margin-bottom: 20px;
+    }
+
+    .actions-slide_subtitle {
+        font-size: 24px;
+        max-width: 180px;
+        display: inline-block;
+    }
+
+    .actions-slide_subtitle img {
+        height: 25px;
+    }
+
+    .actions-slide_btn {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-35%);
     }
 }

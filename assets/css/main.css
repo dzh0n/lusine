@@ -1250,6 +1250,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 .cerificates-people {
@@ -1273,6 +1274,7 @@ body {
 .cerificates-content {
     padding-left: 30px;
     max-width: 765px;
+    position: relative;
 }
 
 .cerificates-content_title span {
@@ -1316,4 +1318,18 @@ body {
 
 .certificates-pagination .swiper-button-disabled svg line, .certificates-pagination .swiper-button-disabled svg polyline {
     stroke: #8d8d8d !important;
+}
+
+.leaf_7 {
+    position: absolute;
+    left: 80px;
+    top: 0;
+    transform: translateY(-50%);
+}
+
+.leaf_8 {
+    position: absolute;
+    left: 350px;
+    top: 0;
+    transform: translateY(-175px);
 }

@@ -489,4 +489,8 @@
         width: 100%;
         margin: 25px 0 0;
     }
+
+    .leaf_7 {
+        display: none;
+    }
 }

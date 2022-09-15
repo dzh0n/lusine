@@ -76,7 +76,7 @@ $(document).ready(function () {
 
 
     let certsSlider = new Swiper('.certificates-slider', {
-        slidesPerView: 2,
+        slidesPerView: 3,
         slidesPerColumn: 2,
         slidesPerGroup: 3,
         slidesPerColumnFill: 'row',
@@ -107,17 +107,17 @@ $(document).ready(function () {
                 //console.log($('.reviews-slider .swiper-slide-active').attr('aria-label'));
                 setTimeout(function () {
                     let certsSliderCurrent = $('.certificates-slider .swiper-slide-active').attr('aria-label').split(' / ');
-                    $('.certificates-slider .pagination-digits_current').text(certsSliderCurrent[0]);
-                    $('.certificates-slider .pagination-digits_total').text(certsSliderCurrent[1]);
+                    $('.cerificates-content .pagination-digits_current').text(certsSliderCurrent[0]);
+                    $('.cerificates-content .pagination-digits_total').text(certsSliderCurrent[1]);
                 }, 0);
             }
         }
     });
 
-    reviewsSlider.on('slideChange', function () {
-        let reviewsSliderCurrent = reviewsSlider.slides.eq(reviewsSlider.activeIndex)[0].ariaLabel.split(' / ');
-        $('.reviews-slider .pagination-digits_current').text(reviewsSliderCurrent[0]);
-        $('.reviews-slider .pagination-digits_total').text(reviewsSliderCurrent[1]);
+    certsSlider.on('slideChange', function () {
+        let certsSliderCurrent = $('.certificates-slider .swiper-slide-active').attr('aria-label').split(' / ');
+        $('.cerificates-content .pagination-digits_current').text(certsSliderCurrent[0]);
+        $('.cerificates-content .pagination-digits_total').text(certsSliderCurrent[1]);
     });
 
 });

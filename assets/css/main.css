@@ -1244,6 +1244,80 @@ body {
     top: 180px;
 }
 
+.cerificates {
+    background-image: url('../img/certificates-bg.jpg');
+    padding: 135px 0px 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cerificates-people {
+    display: block;
+    margin-left: -130px;
+}
+
+.cerificates-content_title {
+    font-size: 52px;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    line-height: 1.1;
+    color: #473b39;
+    margin-bottom: 25px;
+}
+
+.cerificates-wrap {
+    display: flex;
+}
+
+.cerificates-content {
+    padding-left: 30px;
+    max-width: 765px;
+}
+
+.cerificates-content_title span {
+    color: #b95342;
+    font-style: italic;
+    display: block;
+}
+
+.cerificates-content_subtitle {
+    font-size: 25px;
+    color: #5a5a5a;
+    margin-bottom: 25px;
+}
+
+.certificate-item {
+
+}
+
+.certificate-item a {
+    display: block;
+}
+
+.certificate-item a img {
+    display: block;
+    width: 100%;
+}
+
+.certificates-pagination {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: relative;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.certificates-pagination .swiper-button-prev, .certificates-pagination .swiper-button-next {
+    position: relative;
+}
+
+.certificates-pagination .swiper-button-disabled svg line, .certificates-pagination .swiper-button-disabled svg polyline {
+    stroke: #8d8d8d !important;
+}
+
 @media (max-width: 575px) {
     .header {
         background-image: url('../img/header-bg-mob.jpg');
@@ -1703,5 +1777,36 @@ body {
         z-index: 1;
         bottom: 0;
         top: auto;
+    }
+
+    .cerificates {
+        padding-top: 25px;
+    }
+
+    .cerificates-wrap {
+        flex-direction: column-reverse;
+    }
+
+    .cerificates-content {
+        padding-left: 0px;
+    }
+
+    .cerificates-content_title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .cerificates-content_subtitle {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .certificates-pagination {
+        justify-content: center;
+    }
+
+    .cerificates-people {
+        width: 100%;
+        margin: 25px 0 0;
     }
 }

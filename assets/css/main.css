@@ -1417,3 +1417,19 @@ body {
 .about-pagination .swiper-button-disabled svg line, .about-pagination .swiper-button-disabled svg polyline {
     stroke: #8d8d8d !important;
 }
+
+.about-slider .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.about-slider {
+    z-index: 1;
+}
+
+.leaf_9 {
+    position: absolute;
+    right: -90px;
+    bottom: 40px;
+    z-index: 0;
+}

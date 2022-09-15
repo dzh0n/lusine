@@ -563,4 +563,12 @@
     .about-sliders {
         padding: 0 0 55px;
     }
+
+    .leaf_9 {
+        position: absolute;
+        right: -40px;
+        bottom: auto;
+        z-index: 0;
+        top: -90px;
+    }
 }

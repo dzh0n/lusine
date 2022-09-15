@@ -1,0 +1,492 @@
+@media (max-width: 575px) {
+    .header {
+        background-image: url('../img/header-bg-mob.jpg');
+        background-size: cover;
+    }
+
+    .burger-menu {
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+    }
+
+    .burger-menu span {
+        width: 100%;
+        height: 2px;
+        background-color: #d68f7e;
+        display: block;
+        margin-bottom: 6px;
+    }
+
+    .burger-menu:hover span {
+        background-color: #c06c5c;
+    }
+
+    .header-top {
+        padding-top: 15px;
+        flex-direction: column;
+    }
+
+    .main-logo {
+        font-size: 29px;
+        line-height: 18px;
+        margin-right: 0px;
+    }
+
+    .main-logo span:nth-child(2) {
+        margin-left: 15px;
+    }
+
+    .main-logo_text {
+        font-size: 10px;
+        margin-bottom: 0px;
+        width: 90px;
+    }
+
+    .header-top_social {
+        display: none;
+    }
+
+    .header-top_col {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header-top_col:nth-child(2) {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .header-top_address {
+        text-align: center;
+    }
+
+    .header-top_phone .order-service_link {
+        display: none;
+    }
+
+    .header-top_phone {
+        margin-left: 0;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .header-bottom_content h3 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .header-bottom_content h4 {
+        font-size: 31px;
+        margin-bottom: 10px;
+    }
+
+    .header-bottom_content h5 {
+        font-size: 18px;
+    }
+
+    .header-bottom {
+        height: auto;
+    }
+
+    .header-people_img {
+        position: relative;
+        width: 230px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .header-bottom_row ul {
+        position: absolute;
+        bottom: -430px;
+        margin: 0;
+        width: 100%;
+        padding: 30px 25px;
+
+    }
+
+    .header-bottom_row ul li {
+        font-size: 14px;
+    }
+
+    .header-bottom_row a {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 230px;
+        font-size: 18px;
+        height: 70px;
+        padding-top: 12px;
+    }
+
+    .header-bottom_row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .features-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features-wrapper_item {
+        margin-bottom: 25px;
+    }
+
+    .features-wrapper_item img {
+
+    }
+
+    .groups {
+        padding: 50px 0px 50px;
+    }
+
+    .groups-title {
+        font-size: 28px;
+    }
+
+    .groups-wrapper {
+        flex-direction: column;
+    }
+
+    .group-item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .group-item_title {
+        font-size: 16px;
+    }
+
+    .group-item_description {
+        font-size: 14px;
+    }
+
+    .group-item_info div {
+        font-size: 14px;
+    }
+
+    .group-item_info div strong {
+        font-size: 16px;
+    }
+
+    .group-item_btn {
+        font-size: 16px;
+        width: 190px;
+        height: 64px;
+    }
+
+    .leaf_2 {
+        width: 70%;
+        transform: translateY(30%);
+    }
+
+
+    .command-title {
+        flex-direction: column;
+    }
+
+    .command-title_left {
+        text-align: center;
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .command-title_right {
+        text-align: center;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .command-wrapper {
+        flex-direction: column;
+    }
+
+    .command-wrapper_col {
+        margin-bottom: 25px;
+    }
+
+    .reviews-title {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .reviews-title_left {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .reviews-title_right {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .review-item img {
+        margin-bottom: 20px;
+    }
+
+    .review-item_name {
+        font-size: 18px;
+    }
+
+    .reviews-pagination {
+        display: none;
+    }
+
+    .social {
+        height: auto;
+    }
+
+    .social-people {
+        position: relative;
+        right: 0;
+        width: 100%;
+    }
+
+    .social-text h2 {
+        font-size: 28px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .social-text h2 span {
+        line-height: 1.2;
+        display: block;
+    }
+
+    .social-text_info {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .social-icons a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-text {
+        margin-bottom: 25px;
+    }
+
+    .exclusive-wrap {
+        flex-direction: column;
+    }
+
+    .exclusive-img {
+        margin-right: 0px;
+    }
+
+    .exclusive-img img {
+        width: 100%;
+    }
+
+    .exclusive-text_title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .exclusive-text_main {
+        font-size: 18px;
+    }
+
+    .exclusive-text_badget {
+        font-size: 24px;
+        padding: 15px 25px;
+    }
+
+    .exclusive {
+        padding-top: 50px;
+    }
+
+    .footer-top_menu {
+        display: none;
+    }
+
+    .content-wrapper {
+        padding-bottom: 500px;
+    }
+
+    .footer {
+        padding: 50px 0px;
+        height: 500px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+    }
+
+    .footer-top_logo {
+        max-width: 100%;
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+    }
+
+    .footer-bottom .footer-bottom_license {
+        display: none;
+    }
+
+    .footer-bottom_made {
+        text-align: center;
+        order: 1;
+        margin-bottom: 25px;
+    }
+
+    .footer-bottom_politika {
+        order: 2;
+    }
+
+    .footer-top_address {
+        margin: 0 0 25px;
+    }
+
+    .footer-top_socials {
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .footer-top_socials a {
+        margin: 0;
+    }
+
+    .footer-top .footer-bottom_license {
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        margin: 0 0 25px;
+    }
+
+    .features {
+        padding-bottom: 40px;
+    }
+
+    .actions {
+        padding-bottom: 40px;
+    }
+
+    .actions-slide .img {
+        display: none;
+    }
+
+    .actions-slide .img-mob {
+        display: block !important;
+    }
+
+    .actions-slide label {
+        font-size: 24px;
+        padding-left: 30px;
+        padding-right: 30px;
+        top: 30px;
+    }
+
+    .actions-slide_content {
+        margin-left: 0px;
+        justify-content: flex-start;
+        padding: 85px 20px 0px;
+    }
+
+    .actions-slide_title {
+        font-size: 33px;
+        margin-bottom: 20px;
+    }
+
+    .actions-slide_subtitle {
+        font-size: 24px;
+        max-width: 180px;
+        display: inline-block;
+    }
+
+    .actions-slide_subtitle img {
+        height: 25px;
+    }
+
+    .actions-slide_btn {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-35%);
+    }
+
+    .leaf_3, .leaf_4, .leaf_5 {
+        display: none;
+    }
+
+    .free {
+        padding: 80px 0px;
+    }
+
+    .free-wrapper {
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 50px 20px 0px;
+
+    }
+
+    .free-wrapper .img {
+        display: block;
+        width: 100%;
+    }
+
+    .free-content_title {
+        font-size: 28px;
+    }
+
+    .free-content label {
+        font-size: 24px;
+    }
+
+    .free-content {
+        padding-left: 0px;
+    }
+
+    .leaf_6 {
+        right: -110%;
+        z-index: 1;
+        bottom: 0;
+        top: auto;
+    }
+
+    .cerificates {
+        padding-top: 25px;
+    }
+
+    .cerificates-wrap {
+        flex-direction: column-reverse;
+    }
+
+    .cerificates-content {
+        padding-left: 0px;
+    }
+
+    .cerificates-content_title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .cerificates-content_subtitle {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .certificates-pagination {
+        justify-content: center;
+    }
+
+    .cerificates-people {
+        width: 100%;
+        margin: 25px 0 0;
+    }
+}

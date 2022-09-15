@@ -3,8 +3,8 @@ $(document).ready(function () {
         slidesPerView: 3,
         spaceBetween: 30,
         navigation: {
-            prevEl: '.reviews__prev',
-            nextEl: '.reviews__next',
+            prevEl: '.reviews-pagination .reviews__prev',
+            nextEl: '.reviews-pagination .reviews__next',
         },
         breakpoints: {
             992: {
@@ -41,8 +41,8 @@ $(document).ready(function () {
         slidesPerView: 1,
         spaceBetween: 0,
         navigation: {
-            prevEl: '.reviews__prev',
-            nextEl: '.reviews__next',
+            prevEl: '.actions-pagination .reviews__prev',
+            nextEl: '.actions-pagination .reviews__next',
         },
         breakpoints: {
             992: {
@@ -118,6 +118,52 @@ $(document).ready(function () {
         let certsSliderCurrent = $('.certificates-slider .swiper-slide-active').attr('aria-label').split(' / ');
         $('.cerificates-content .pagination-digits_current').text(certsSliderCurrent[0]);
         $('.cerificates-content .pagination-digits_total').text(certsSliderCurrent[1]);
+    });
+
+
+    let aboutSlider = new Swiper('.about-slider', {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        navigation: {
+            prevEl: '.about-pagination .reviews__prev',
+            nextEl: '.about-pagination .reviews__next',
+        },
+        breakpoints: {
+            992: {
+                slidesPerView: 1,
+
+            },
+            576: {
+                slidesPerView: 1,
+            },
+            320: {
+                slidesPerView: 1,
+            },
+        },
+        on: {
+            afterInit(swiper) {
+                //console.log($('.reviews-slider .swiper-slide-active').attr('aria-label'));
+                setTimeout(function () {
+                    let aboutSliderCurrent = $('.about-slider .swiper-slide-active').attr('aria-label').split(' / ');
+                    $('.about-pagination .pagination-digits_current').text(aboutSliderCurrent[0]);
+                    $('.about-pagination .pagination-digits_total').text(aboutSliderCurrent[1]);
+                }, 0);
+            }
+        }
+    });
+
+    aboutSlider.on('slideChange', function () {
+        setTimeout(function () {
+            let aboutSliderCurrent = $('.about-slider .swiper-slide-active').attr('aria-label').split(' / ');
+            $('.about-pagination .pagination-digits_current').text(aboutSliderCurrent[0]);
+            $('.about-pagination .pagination-digits_total').text(aboutSliderCurrent[1]);
+            current = parseInt(aboutSliderCurrent[0]) - 1;
+            $('.about-sliders_tabs ul li a').removeClass('active').eq(current).addClass('active')
+        }, 0);
+    });
+
+    $('.about-sliders_tabs ul li').on('click', function (e) {
+        aboutSlider.slideTo($(this).index());
     });
 
 });

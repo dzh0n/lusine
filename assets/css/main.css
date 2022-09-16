@@ -1542,3 +1542,36 @@ body {
     background-image: url('../img/more_works_btn_a.png');
     background-position: 1px 2px;
 }
+
+
+.services {
+    padding: 100px 0px;
+}
+
+.services-head {
+
+}
+
+.services-head h2 {
+    margin: 0 0 25px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.1;
+    color: #b95342;
+}
+
+.services-head h2 span {
+    font-style: normal;
+    color: #333;
+}
+
+.services-head h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #5a5a5a;
+    margin: 0;
+    font-weight: 400;
+}

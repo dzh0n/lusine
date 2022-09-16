@@ -1435,7 +1435,7 @@ body {
 }
 
 .works {
-
+    padding: 0 0 100px;
 }
 
 .works-head {
@@ -1492,14 +1492,21 @@ body {
     padding: 30px;
 }
 
+.works-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
 .works-pagination {
     display: flex;
     align-items: center;
     height: 50px;
     position: relative;
     justify-content: center;
-    margin-top: 50px;
     margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 .works-pagination .swiper-button-prev, .works-pagination .swiper-button-next {
@@ -1508,4 +1515,26 @@ body {
 
 .works-pagination .swiper-button-disabled svg line, .works-pagination .swiper-button-disabled svg polyline {
     stroke: #8d8d8d !important;
+}
+
+.more-works {
+    display: inline-block;
+    color: #fff9f8;
+    font-size: 23px;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: none;
+    width: 327px;
+    height: 94px;
+    line-height: 19px;
+    text-align: center;
+    padding-top: 25px;
+    background-image: url('../img/more_works_btn.png');
+    background-repeat: no-repeat;
+}
+
+.more-works:hover {
+    background-image: url('../img/more_works_btn_a.png');
+    background-position: 1px 2px;
 }

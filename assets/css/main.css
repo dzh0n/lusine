@@ -1467,3 +1467,27 @@ body {
     font-weight: normal;
     font-size: 25px;
 }
+
+.works-item {
+    background-color: #fffeff;
+    -webkit-box-shadow: 0px 0px 46px 0px rgb(182 169 166 / 15%);
+    -moz-box-shadow: 0px 0px 46px 0px rgba(182, 169, 166, 0.15);
+    box-shadow: 0px 0px 46px 0px rgb(182 169 166 / 15%);
+    border-radius: 10px;
+}
+
+.works-item a {
+    display: block;
+}
+
+.works-item a img {
+    display: block;
+    width: 100%;
+}
+
+.works-item_description {
+    color: #473b39;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px;
+}

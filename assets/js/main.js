@@ -166,4 +166,41 @@ $(document).ready(function () {
         aboutSlider.slideTo($(this).index());
     });
 
+    let worksSlider = new Swiper('.works-slider', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        navigation: {
+            prevEl: '.works-pagination .reviews__prev',
+            nextEl: '.works-pagination .reviews__next',
+        },
+        breakpoints: {
+            992: {
+                slidesPerView: 3,
+
+            },
+            576: {
+                slidesPerView: 2,
+            },
+            320: {
+                slidesPerView: 1,
+            },
+        },
+        on: {
+            afterInit(swiper) {
+                //console.log($('.reviews-slider .swiper-slide-active').attr('aria-label'));
+                setTimeout(function () {
+                    let worksSliderCurrent = $('.works-slider .swiper-slide-active').attr('aria-label').split(' / ');
+                    $('.works-pagination .pagination-digits_current').text(worksSliderCurrent[0]);
+                    $('.works-pagination .pagination-digits_total').text(worksSliderCurrent[1]);
+                }, 0);
+            }
+        }
+    });
+
+    worksSlider.on('slideChange', function () {
+        let worksSliderCurrent = $('.works-slider .swiper-slide-active').attr('aria-label').split(' / ');
+        $('.works-pagination .pagination-digits_current').text(worksSliderCurrent[0]);
+        $('.works-pagination .pagination-digits_total').text(worksSliderCurrent[1]);
+    });
+
 });

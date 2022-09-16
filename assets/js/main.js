@@ -2,6 +2,7 @@ $(document).ready(function () {
     let reviewsSlider = new Swiper('.reviews-slider', {
         slidesPerView: 3,
         spaceBetween: 30,
+        loop: true,
         navigation: {
             prevEl: '.reviews-pagination .reviews__prev',
             nextEl: '.reviews-pagination .reviews__next',
@@ -168,6 +169,7 @@ $(document).ready(function () {
 
     let worksSlider = new Swiper('.works-slider', {
         slidesPerView: 3,
+        loop: true,
         spaceBetween: 30,
         navigation: {
             prevEl: '.works-pagination .reviews__prev',
@@ -198,9 +200,11 @@ $(document).ready(function () {
     });
 
     worksSlider.on('slideChange', function () {
-        let worksSliderCurrent = $('.works-slider .swiper-slide-active').attr('aria-label').split(' / ');
-        $('.works-pagination .pagination-digits_current').text(worksSliderCurrent[0]);
-        $('.works-pagination .pagination-digits_total').text(worksSliderCurrent[1]);
+        setTimeout(function () {
+            let worksSliderCurrent = $('.works-slider .swiper-slide-active').attr('aria-label').split(' / ');
+            $('.works-pagination .pagination-digits_current').text(worksSliderCurrent[0]);
+            $('.works-pagination .pagination-digits_total').text(worksSliderCurrent[1]);
+        }, 0);
     });
 
 });

@@ -1491,3 +1491,21 @@ body {
     font-size: 20px;
     padding: 30px;
 }
+
+.works-pagination {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: relative;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.works-pagination .swiper-button-prev, .works-pagination .swiper-button-next {
+    position: relative;
+}
+
+.works-pagination .swiper-button-disabled svg line, .works-pagination .swiper-button-disabled svg polyline {
+    stroke: #8d8d8d !important;
+}

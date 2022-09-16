@@ -185,6 +185,9 @@ $(document).ready(function () {
             },
             320: {
                 slidesPerView: 1,
+                slidesPerColumnFill: 'row',
+                slidesPerColumn: 2,
+                slidesPerGroup: 2,
             },
         },
         on: {

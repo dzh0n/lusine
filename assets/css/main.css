@@ -1438,6 +1438,10 @@ body {
     padding: 0 0 100px;
 }
 
+.works-slider .swiper-wrapper {
+    padding-bottom: 50px;
+}
+
 .works-head {
     display: flex;
     width: 100%;
@@ -1496,7 +1500,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 50px;
+
 }
 
 .works-pagination {

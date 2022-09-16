@@ -1433,3 +1433,37 @@ body {
     bottom: 40px;
     z-index: 0;
 }
+
+.works {
+
+}
+
+.works-head {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.works-head h2 {
+    width: 375px;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    font-size: 45px;
+    line-height: 1.1;
+}
+
+.works-head h2 span {
+    color: #b95342;
+    font-style: italic;
+    display: block;
+}
+
+.works-head h3 {
+    width: 400px;
+    color: #5a5a5a;
+    font-weight: normal;
+    font-size: 25px;
+}

@@ -1609,3 +1609,83 @@ body {
     background-color: #ca6857;
     color: #fff;
 }
+
+.services-blocks {
+
+}
+
+.service-block {
+    display: none;
+}
+
+#problems-selector {
+    display: block;
+}
+
+.problems-wrapper {
+    background-color: #ffffff;
+    padding: 55px 85px 55px;
+    -webkit-box-shadow: 0px 0px 46px 0px rgb(182 169 166 / 15%);
+    -moz-box-shadow: 0px 0px 46px 0px rgba(182, 169, 166, 0.15);
+    box-shadow: 0px 0px 46px 0px rgb(182 169 166 / 15%);
+    border-radius: 10px;
+    position: relative;
+}
+
+.problems-wrapper_cols {
+    display: flex;
+}
+
+.problems-wrapper dl {
+    display: flex;
+    margin-bottom: 30px;
+    width: 320px;
+}
+
+.problems-wrapper dt {
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    font-style: italic;
+    font-size: 50px;
+    color: #473b39;
+    line-height: 1em;
+    width: 35px;
+}
+
+.problems-wrapper dd {
+    margin-left: 30px;
+    width: 185px;
+}
+
+.problems-wrapper dd ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.problems-wrapper dd ul li {
+    display: block;
+    position: relative;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #646464;
+    padding-left: 20px;
+}
+
+.problems-wrapper dd ul li:before {
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    content: '';
+    width: 7px;
+    height: 7px;
+    background-image: url('../img/command_marker.png');
+}
+
+.problems_flower {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}

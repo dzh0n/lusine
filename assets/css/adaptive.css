@@ -616,4 +616,58 @@
     .works {
         padding: 0 0 50px;
     }
+
+    .problems_flower {
+        display: none;
+    }
+
+    .problems-wrapper {
+        padding: 30px 0px;
+        height: 400px;
+    }
+
+    .problems-wrapper_cols {
+        flex-direction: column;
+        padding: 0px 20px;
+        height: 345px;
+        overflow: hidden;
+    }
+
+    .problems-wrapper dl {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+
+    .problems-wrapper dd {
+        width: auto;
+        margin-left: 20px;
+    }
+
+    .services-head h2 {
+        font-size: 28px;
+    }
+
+    .services-head h3 {
+        font-size: 18px;
+    }
+
+    .services-selector ul a {
+        font-size: 14px;
+        width: 140px;
+        height: 40px;
+    }
+
+    .services-selector ul {
+        padding: 0px;
+    }
+
+    .problems-wrapper dt {
+        font-size: 40px;
+    }
+
+    .service-block .actions-slide_btn {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -120px;
+    }
 }

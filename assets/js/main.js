@@ -1,4 +1,14 @@
 $(document).ready(function () {
+
+    if ($(window).outerWidth() <= 575) {
+        $('.problems-wrapper_cols').niceScroll({
+            cursorcolor: "#ca6857",
+            autohidemode: false,
+            //background: "#ebdcd9",
+            cursorborder: "1px solid #ca6857"
+        });
+    }
+
     let reviewsSlider = new Swiper('.reviews-slider', {
         slidesPerView: 3,
         spaceBetween: 30,

@@ -1,5 +1,11 @@
 $(document).ready(function () {
 
+    $('.services-selector a').on('click', function () {
+        $('.services-selector a').removeClass('active');
+        $(this).addClass('active');
+        var indexSelector = $(this).parent().index();
+    });
+
     if ($(window).outerWidth() <= 575) {
         $('.problems-wrapper_cols').niceScroll({
             cursorcolor: "#ca6857",

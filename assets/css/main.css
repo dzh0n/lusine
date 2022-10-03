@@ -1751,6 +1751,7 @@ body {
 }
 
 .services-header .swiper-slide {
+    padding-bottom: 25px;
 }
 
 .services-header .swiper-slide span {
@@ -1800,4 +1801,16 @@ body {
 
 .services-pagination .reviews__prev:hover svg, .services-pagination .reviews__next:hover svg {
     stroke: #ffffff;
+}
+
+.services-header .swiper-slide.slide-active {
+    background-color: #ffffff;
+    border-radius: 44px 44px 0 0;
+}
+
+.services-header .swiper-slide.slide-active span {
+    border-color: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #2e2827 !important;
+    font-weight: 700;
 }

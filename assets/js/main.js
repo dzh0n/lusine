@@ -24,6 +24,13 @@ $(document).ready(function () {
         },
     });
 
+    $('.services-header .swiper-slide').on('click', function () {
+        $(this).addClass('slide-active').siblings().removeClass('slide-active');
+        temp = $(this).attr('aria-label').split(' / ');
+        idx = parseInt(temp[0]);
+        console.log(idx);
+    });
+
     let reviewsSlider = new Swiper('.reviews-slider', {
         slidesPerView: 3,
         spaceBetween: 30,

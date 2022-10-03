@@ -1785,4 +1785,19 @@ body {
 
 .services-pagination .reviews__prev svg, .services-pagination .reviews__next svg {
     width: 30px;
+    stroke: #adabab;
+}
+
+.services-pagination .reviews__prev svg line, .services-pagination .reviews__next svg line {
+
+}
+
+.services-pagination .reviews__prev:hover, .services-pagination .reviews__next:hover {
+    stroke: #ffffff;
+    background-color: #ca6857;
+    border-color: #ca6857;
+}
+
+.services-pagination .reviews__prev:hover svg, .services-pagination .reviews__next:hover svg {
+    stroke: #ffffff;
 }

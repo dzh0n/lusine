@@ -1624,7 +1624,7 @@ body {
     display: none;
 }
 
-#problems-selector {
+#services-selector {
     display: block;
 }
 
@@ -1736,4 +1736,53 @@ body {
     bottom: 180px;
     right: 25%;
     z-index: 1;
+}
+
+.services-selector_top {
+    position: relative;
+}
+
+.services-header {
+
+}
+
+.services-header {
+    width: calc(100% - 140px);
+}
+
+.services-header .swiper-slide {
+}
+
+.services-header .swiper-slide span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    text-align: center;
+    color: #635654;
+    font-family: 'PF Regal Display Pro';
+    font-weight: 500;
+    padding: 0px 30px;
+    border: #f0dedb 2px solid;
+    border-radius: 44px;
+    height: 84px;
+    cursor: pointer;
+}
+
+.services-header .swiper-slide:hover span {
+    background-color: #ca6857;
+    border-color: #ca6857;
+    color: #fff;
+}
+
+.services-pagination .reviews__prev, .services-pagination .reviews__next {
+    border: #f0dedb 1px solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    top: 15%;
+}
+
+.services-pagination .reviews__prev svg, .services-pagination .reviews__next svg {
+    width: 30px;
 }

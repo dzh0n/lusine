@@ -15,6 +15,15 @@ $(document).ready(function () {
         });
     }
 
+    let servicesHeaderSlider = new Swiper('.services-header', {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        navigation: {
+            prevEl: '.services-pagination .reviews__prev',
+            nextEl: '.services-pagination .reviews__next',
+        },
+    });
+
     let reviewsSlider = new Swiper('.reviews-slider', {
         slidesPerView: 3,
         spaceBetween: 30,

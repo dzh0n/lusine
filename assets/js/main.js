@@ -22,6 +22,18 @@ $(document).ready(function () {
             prevEl: '.services-pagination .reviews__prev',
             nextEl: '.services-pagination .reviews__next',
         },
+        breakpoints: {
+            992: {
+                slidesPerView: 4,
+
+            },
+            576: {
+                slidesPerView: 1.5,
+            },
+            320: {
+                slidesPerView: 1.5,
+            },
+        }
     });
 
     let dSlider = new Swiper('.services-selector_content .swiper-container', {

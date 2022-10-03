@@ -4,6 +4,7 @@ $(document).ready(function () {
         $('.services-selector a').removeClass('active');
         $(this).addClass('active');
         var indexSelector = $(this).parent().index();
+        $('.service-block').eq(indexSelector).show().siblings().hide();
     });
 
     if ($(window).outerWidth() <= 575) {

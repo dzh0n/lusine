@@ -1891,3 +1891,14 @@ body {
     bottom: -50px;
     right: 0;
 }
+
+.services_shp {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(-50%);
+}
+
+.services {
+    position: relative;
+}

@@ -763,4 +763,8 @@
     .f-col-2 {
         flex-direction: column;
     }
+
+    .services_shp {
+        display: none;
+    }
 }

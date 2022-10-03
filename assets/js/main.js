@@ -24,12 +24,24 @@ $(document).ready(function () {
         },
     });
 
+    let dSlider = new Swiper('.services-selector_content .swiper-container', {
+        slidesPerView: 1,
+        allowTouchMove: false,
+        autoHeight: true,
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true
+        },
+    });
+
     $('.services-header .swiper-slide').on('click', function () {
         $(this).addClass('slide-active').siblings().removeClass('slide-active');
         temp = $(this).attr('aria-label').split(' / ');
         idx = parseInt(temp[0]);
-        console.log(idx);
+        //console.log(idx);
+        dSlider.slideTo(idx - 1);
     });
+
 
     let reviewsSlider = new Swiper('.reviews-slider', {
         slidesPerView: 3,

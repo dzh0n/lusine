@@ -1832,6 +1832,8 @@ body {
 
 .services-slide_content > img {
     border-radius: 10px;
+    display: block;
+    height: 100%;
 }
 
 .services-slide_title {

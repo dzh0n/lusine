@@ -98,6 +98,7 @@ $(document).ready(function () {
     let actionsSlider = new Swiper('.actions-slider', {
         slidesPerView: 1,
         spaceBetween: 0,
+        loop: true,
         navigation: {
             prevEl: '.actions-pagination .reviews__prev',
             nextEl: '.actions-pagination .reviews__next',
